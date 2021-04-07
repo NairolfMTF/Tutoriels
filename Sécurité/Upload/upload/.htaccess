@@ -2,3 +2,5 @@
     Order Deny,Allow
     Deny from all
 </FilesMatch>
+
+# N'oublie pas de changer les permission du repertoire où tu stocke tes fichiers importée (commande linux: sudo chmod drwxr-xr-x /TON_REPERTOIRE)
