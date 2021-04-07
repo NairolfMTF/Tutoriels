@@ -1,0 +1,4 @@
+<FilesMatch "\.php$"> #Tu peux copier/coller ce code pour interdire d'autres extentions
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
