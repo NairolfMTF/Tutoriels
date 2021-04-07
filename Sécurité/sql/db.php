@@ -1,0 +1,8 @@
+<?php
+
+$db = new PDO("mysql:dbname=LE_NOM_DE_TA_BASE_DE_DONNÉE;host=LA_MACHINE;", "UTILISATEUR8DE_CONNECTION", "MOT_DE_PASSE");
+
+$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+$db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
+
+?>
